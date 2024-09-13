@@ -1,0 +1,23 @@
+{
+  "name": "kvsuploadjssample",
+  "version": "1.0.0",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "node upload.js ./agent.wav",
+    "read": "node read.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-kinesis-video": "^3.650.0",
+    "@aws-sdk/client-kinesis-video-media": "^3.650.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "aws4": "^1.13.2",
+    "axios": "^1.7.7",
+    "pv": "^1.0.1"
+  }
+}
